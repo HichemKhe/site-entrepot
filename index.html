@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrepôt - Vente de Produits</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .product {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 15px;
+            background: #fff;
+            text-align: center;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #007bff;
+            color: white;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue à l'Entrepôt</h1>
+        <p>Découvrez nos produits et réservez-les en ligne avant de venir les acheter !</p>
+    </header>
+    <div class="container">
+        <h2>Nos Produits</h2>
+        <div class="product">
+            <img src="produit1.jpg" alt="Produit 1">
+            <h3>Nom du Produit 1</h3>
+            <p>Description du produit...</p>
+            <button onclick="alert('Produit réservé !')">Réserver</button>
+        </div>
+        <div class="product">
+            <img src="produit2.jpg" alt="Produit 2">
+            <h3>Nom du Produit 2</h3>
+            <p>Description du produit...</p>
+            <button onclick="alert('Produit réservé !')">Réserver</button>
+        </div>
+    </div>
+    <div class="contact">
+        <h2>Contact & Adresse</h2>
+        <p>Adresse de l'entrepôt : [À compléter]</p>
+        <p>Téléphone : [À compléter]</p>
+        <p>Email : [À compléter]</p>
+    </div>
+</body>
+</html>
